@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es2021",
+    "module": "esnext",
+    "outDir": "./dist",
+    "strict": true,
+    "sourceMap": true,
+    "declaration": true /* Generates corresponding '.d.ts' file. */,
+    "declarationMap": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types", "typings"],
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
